@@ -38,7 +38,7 @@ a{
     width: 100px;
     color: #fff;
     margin-left: 58px;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 140%;
     transition: .3s;
@@ -316,11 +316,215 @@ a{
     line-height: 140%;
     border: none;
     text-transform: uppercase;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    background: #F9804B;
     border-radius: 25px;
     margin-left: 427px;
     height: 54px;
     width: 298px;
     cursor: pointer;
+    transition: .4s;
     
+}
+
+.friends__button:hover{
+    background: #E47209;
+}
+
+
+.friends__button:active{
+    background: #4B9200;
+}
+
+.friends__button:disabled{
+    background: #767474;
+}
+
+.footer{
+    background: #111115;
+    color: #fff;
+}
+.footer__nav{
+    padding-right: 129px;
+    padding-top: 40px;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+.footer__sub{
+    height: 20px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: right;
+    margin-top: -17px;
+    
+}
+
+.footer__form {
+    padding-left: 10px;
+    padding-top: 13px;
+    width: 228px;
+    height: 42px;
+    text-align: left;
+    border: 1px solid orangered;
+    border-radius: 2px;
+    transition: .3s;
+    cursor: pointer;
+    color: #BDBDBD;
+}
+
+.footer__form::miss
+
+.footer__form:hover {
+    border: 1px solid green;
+}
+.footer__button {
+    height: 42px;
+    width: 129px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border:1px solid green;
+    color: green;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer__button:hover {
+    border: 1px solid orangered;
+}
+
+.donate__btn{
+    width: 298px;
+    height: 54px;
+    background: #F9804B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    margin-top: 34px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}   
+
+
+
+.donate__btn:hover{
+    background: #E47209;
+}
+
+
+.donate__btn:active{
+    background: #4B9200;
+}
+
+.donate__btn:disabled{
+    background: #767474;
+}
+
+
+.footer__links-items{
+    font-family: 'Roboto';
+    display: grid;
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+
+
+.footer__nav-low{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+
+
+.footer__links-item{
+    padding-bottom: 4px;
+}
+
+
+.footer__links-item-1{
+    padding-bottom: -16px;
+}
+
+.footer__menu{
+    
+    max-width: 362px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    transition: .3s;
+    bottom: -144px;
+    
+
+    
+}
+
+.footer__menu-link{
+    margin-left: 58px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    bottom: -160px;
+}
+
+.footer__menu-link:hover{
+    color: #F9804B;
+}
+
+
+.footer__menu-link:first-child{
+    margin-left: -58px;
+}
+
+.footer__nav-text-item{
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.footer__nav-text-item{
+    position: relative;
+    opacity: 0.5;
+    top: 129px;
+}
+
+
+.footer__nav-text-item:last-child{
+    padding-top: 10px;
+}
+
+
+.footer__links-item-4::before {
+    content: url(./images/facebook.svg);
+    position: relative;
+    top: 6px;
+    right: 22px;
+}
+.footer__links-item-3::before {
+    content: url(./images/twitter.svg);
+    position: relative;
+    top: 6px;
+    right: 22px;
+}
+.footer__links-item-2::before {
+    content: url(./images/instagram.svg);
+    position: relative;
+    top: 6px;
+    right: 22px;
+}
+.footer__links-item-1::before {
+    content: url(./images/youtube.svg);
+    position: relative;
+    top: 6px;
+    right: 22px;
 }

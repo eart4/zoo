@@ -178,12 +178,20 @@ a{
     line-height: 130%;
 }
 
+.backstage__second--text-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    
+}
+
 .backstage__second-title{
     font-weight: 400;
     font-size: 24px;
     line-height: 120%;
     padding-top: 54px;
     padding-bottom: 34px;
+
 }
 
 .uncontainer-image{
@@ -193,6 +201,93 @@ a{
     bottom: 524px;
 }
 
+.animals{
+    margin-bottom: 80px;
+
+}
+.animals__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+.animals__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+
+.animals__text{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    margin-left: 16px;
+    margin-bottom: 18px;
+}
+.animals__item{
+    border: 1px solid #FE9013;
+    border-radius: 5px;    
+}
+
+.animals__item:nth-child(4), :nth-child(5), :nth-child(6){
+    margin-top: 20px;
+}
+
+.animals__btn{
+    margin-top: 80px;
+    border: none;
+    text-transform: uppercase;
+    background: #FE9013;
+    border-radius: 25px;
+    margin-left: 427px;
+    height: 54px;
+    width: 298px;
+    cursor: pointer;
+    transition: .4s;
+    color: white;
+    cursor: pointer;
+}
+
+.animals__btn:hover{
+    background: #E47209;
+}
+
+
+.animals__btn:active{
+    background: #4B9200;
+}
+
+.animals__btn:disabled{
+    background: #767474;
+}
+
+.animals__left{
+
+    
+    border-radius: 100%;
+    border: none;
+    background-color: #FE9013;
+    height: 62px;
+    width: 62px;
+    
+    
+}
+
+
+.animals__right{
+    border-radius: 100%;
+    border: none;
+    background-color: #FE9013;
+    height: 62px;
+    width: 62px;
+    
+}
 
 .friends{
     height: 1004px;
@@ -365,7 +460,7 @@ a{
 
 .footer__form {
     padding-left: 10px;
-    padding-top: 13px;
+    padding-top: 2px;
     width: 228px;
     height: 42px;
     text-align: left;
@@ -374,6 +469,8 @@ a{
     transition: .3s;
     cursor: pointer;
     color: #BDBDBD;
+    background-color: #111115;
+    outline: none;
 }
 
 .footer__form::miss
@@ -425,6 +522,15 @@ a{
 .donate__btn:disabled{
     background: #767474;
 }
+
+
+
+
+
+
+
+
+
 
 
 .footer__links-items{
@@ -528,3 +634,5 @@ a{
     top: 6px;
     right: 22px;
 }
+
+

@@ -237,8 +237,16 @@ a{
     border-radius: 5px;    
 }
 
-.animals__item:nth-child(4), :nth-child(5), :nth-child(6){
-    margin-top: 20px;
+.a{
+    margin-bottom: 20px;
+}
+
+.b{
+    margin-bottom: 20px;
+}
+
+.c{
+    margin-bottom: 20px;
 }
 
 .animals__btn{
@@ -481,7 +489,6 @@ a{
     border: 1px solid orangered;
     border-radius: 2px;
     transition: .3s;
-    cursor: pointer;
     color: #BDBDBD;
     background-color: #111115;
     outline: none;

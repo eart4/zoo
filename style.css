@@ -203,6 +203,8 @@ a{
 
 .animals{
     margin-bottom: 80px;
+    display: flex;
+    
 
 }
 .animals__items{
@@ -240,7 +242,7 @@ a{
 }
 
 .animals__btn{
-    margin-top: 80px;
+    margin-top: 18px;
     border: none;
     text-transform: uppercase;
     background: #FE9013;
@@ -268,25 +270,37 @@ a{
 }
 
 .animals__left{
-
-    
+    right: 82px;
+    position: relative;
     border-radius: 100%;
     border: none;
     background-color: #FE9013;
     height: 62px;
     width: 62px;
-    
+    top: 478px;
+    transition: .3s;
+    cursor: pointer;
+
     
 }
 
 
 .animals__right{
+    position: relative ;
     border-radius: 100%;
     border: none;
     background-color: #FE9013;
     height: 62px;
     width: 62px;
-    
+    bottom: 481px;
+    left: 100%;
+    margin-left: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.animals__right:hover, .animals__left:hover{
+    background-color: #4B9200;
 }
 
 .friends{
@@ -486,7 +500,7 @@ a{
     border:1px solid green;
     color: green;
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .footer__button:hover {
@@ -506,6 +520,7 @@ a{
     cursor: pointer;
     text-transform: uppercase;
     border: none;
+    transition: 0.3s;
 }   
 
 

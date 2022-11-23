@@ -150,7 +150,7 @@ a{
 
 .backstage{
     margin-top: 140px;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
     height: 403px;
 }
 
@@ -201,12 +201,7 @@ a{
     bottom: 524px;
 }
 
-.animals{
-    margin-bottom: 80px;
-    display: flex;
-    
 
-}
 .animals__items{
     display: flex;
     flex-wrap: wrap;
@@ -300,20 +295,52 @@ a{
     background-color: #FE9013;
     height: 62px;
     width: 62px;
-    bottom: 481px;
+    bottom: 483px;
     left: 100%;
     margin-left: 20px;
     transition: .3s;
     cursor: pointer;
 }
 
+
+.animal__flowers{
+    margin-top: 80px;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.animal__flower-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.animal__flower-img-2{
+    right: 0;
+    
+}
+
+.animals__item{
+    position: relative;
+
+}
+
+.animals__img{
+    position: absolute;
+    right: 0;
+    right: 13px;
+    bottom: 13px;
+}
 .animals__right:hover, .animals__left:hover{
     background-color: #4B9200;
 }
 
 .friends{
     height: 1004px;
-    
+    margin-bottom: 139px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     opacity: 0.9;
 }
@@ -400,6 +427,8 @@ a{
     
 }
 
+
+
 .card-arr{
     margin-right: 30px;
 }
@@ -456,6 +485,14 @@ a{
     background: #767474;
 }
 
+
+.reviews__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 47px;
+}
 .footer{
     background: #111115;
     color: #fff;

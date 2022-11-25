@@ -37,7 +37,8 @@ a{
 .header__nav-link{
     width: 100px;
     color: #fff;
-    margin-left: 58px;
+    
+
     font-weight: 300;
     font-size: 16px;
     line-height: 140%;
@@ -568,6 +569,7 @@ input[type='range'] {
     height:10px;
     border: 1px solid rgba(254, 189, 171, 0.74);
     border-radius: 5px;
+    
 }
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none !important;
@@ -575,6 +577,7 @@ input[type='range']::-webkit-slider-thumb {
     height: 9px;
     width: 159px;
     border-radius: 5px;
+    transition: .3s;
 }
 
 
@@ -819,5 +822,295 @@ input[type='range']::-webkit-slider-thumb {
     top: 6px;
     right: 22px;
 }
+
+@media screen and (max-width: 1535px) {
+   
+
+    .uncontainer-image{
+        display:none;
+    }
+
+    .animal__flower-img{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:   1340px) {
+    .animals__left{
+        position: relative;
+        top: 514px;
+        left: 34%;
+    }
+
+    .animals__right{
+        position: relative;
+        bottom: 514px;
+        left: 59%;
+    }
+
+    .a{
+        margin-bottom: 46px;
+    }
+    
+    .b{
+        margin-bottom: 46px;
+    }
+    
+    .c{
+        margin-bottom: 46px;
+    }
+
+    .d{
+        margin-top: 46px;
+    }
+    
+    .e{
+        margin-top: 46px;
+    }
+    
+    .f{
+        margin-top: 46px;
+    }
+
+    
+
+    
+    }
+
+
+
+    @media screen and (max-width:   1220px) {
+        .container{
+            max-width: 1050px;
+
+        }
+        .lower__circle{
+            position: relative;
+            top: -48px;
+            scale: 0.789;
+            
+            
+        }
+
+        .header__lower-btn{
+            left: calc(50% - 298px/2 + 214px);
+        }
+
+
+        .lower__text-item{
+            bottom: 25px;
+            left: calc(50% - 400.25px/2 + 250.12px);
+            width: 400.25px;
+            height: 320px;
+            font-weight: 700;
+            font-size: 85px;
+            line-height: 75%;
+            
+            
+        }
+
+        .backstage-image-item{
+            width: 455px;
+            height: 408px;
+        }
+
+        .animals__item{
+            width: 294px;
+            height: 356px;
+        }
+
+        .animals__item-img{
+            width: 292px;
+            height: 292px;
+            border-radius: 5px;
+        }
+
+
+        .animals__left{
+            position: relative;
+            top: 433px;
+            left: 35.4%;
+        }
+    
+        .animals__right{
+            position: relative;
+            bottom: 433px;
+            left: 56.5%;
+        }
+
+        .reviews__item-a:last-child{
+            display: none;
+        }
+        
+        .animals__btn{
+            margin-left: 359px;
+        }
+
+        .friends__button{
+            margin-left: 359px;
+        }
+
+        .friends__title{
+            font-size: 48px;
+        line-height: 120%;
+        }
+
+        .friends__second-title{
+            font-size: 24px;
+            line-height: 120%;
+        }
+
+        .friends__text{
+            font-size: 16px;
+            line-height: 130%;
+        }
+
+
+        .friends__second-text{
+            font-size: 16px;
+            line-height: 130%;
+        }
+    }
+
+
+    @media screen and (max-width:   1065px){
+        .container{
+            max-width: 900px;
+        }
+
+        .backstage{
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .friends{
+            margin-bottom: 30px;
+        }
+
+        .reviews__title{
+            margin-bottom: 30px;
+        }
+        .backstage__image{
+            display: none;
+        }
+
+        .animals__btn{
+            margin-left: 283px;
+        }
+
+        .friends__button{
+            margin-left: 283px;
+        }
+
+        .uncontainer-image{
+            display: flex;
+            scale: 0.78;
+            
+        }
+
+        .backstage__text{
+            width: 80%;
+        }
+
+
+
+        .animals__item{
+            width: 250px;
+            height: 302px;
+        }
+
+        .animals__item-img{
+            width: 248px;
+            height: 248px;
+            border-radius: 5px;
+        }
+
+        .animals__title{
+            margin-top: 2px;
+        }
+
+        .animals__left{
+            position: relative;
+            top: 400px;
+            left: 35.4%;
+        }
+    
+        .animals__right{
+            position: relative;
+            bottom: 396px;
+            left: 55.3%;
+        }
+
+
+        .a{
+            margin-bottom: 65px;
+        }
+        
+        .b{
+            margin-bottom: 65px;
+        }
+        
+        .c{
+            margin-bottom: 65px;
+        }
+    
+        .d{
+            margin-top: 65px;
+        }
+        
+        .e{
+            margin-top: 65px;
+        }
+        
+        .f{
+            margin-top: 65px;
+        }
+
+        .lower__circle{
+            scale: 0.7;
+             right: 30px;
+        }
+
+        .lower__text-item{
+            scale: 0.8;
+            left: 450px;
+        }
+
+        .header__lower-btn{
+            left: 470px
+        }
+
+    }
+
+    @media screen and (max-width:   950px){
+        .uncontainer-image{
+            display: none;
+        }
+
+        .container{
+            max-width: 800px;
+        }
+
+        .header__nav-link{
+            font-size: 14px;
+            margin-left: 2px;
+        }
+
+        .reviews__item{
+            scale: 0.9;
+        }
+
+        .header__text{
+            margin-left: 20px;
+            font-size: 14px;        
+        }
+
+        .backstage__text{
+            width: 100%;
+        }
+    }
+
+
 
 

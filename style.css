@@ -301,6 +301,7 @@ a{
     transition: .4s;
     color: white;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .animals__btn:hover{
@@ -357,7 +358,7 @@ a{
     margin-top: 80px;
     position: relative;
     
-    display: flex;
+    display: none;
     justify-content: space-between;
     
     
@@ -1111,7 +1112,7 @@ input[type='range']::-webkit-slider-thumb {
         }
 
         .uncontainer-image{
-            display: flex;
+            
             scale: 0.78;
             
         }

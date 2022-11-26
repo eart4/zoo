@@ -18,7 +18,44 @@ a{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+
+    
 }
+
+.header__burger{
+    position: relative;
+    width: 25px;
+    height: 1px;
+    margin-left: auto;
+    background-color: white;
+    display: none;
+}
+
+.header__burger::after{
+    position: absolute;
+    content: '';
+    top: 10px;
+    width: 25px;
+    height: 20px;
+    border-top: 1px solid;
+    
+   
+    
+}
+
+.header__burger::before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    width: 25px;
+    height: 20px;
+    border-top: 1px solid;
+    
+   
+    
+}
+
+
 
 .header__logo{
     cursor: pointer;
@@ -63,7 +100,7 @@ a{
 }
 
 .header__text{
-    margin-left: 12.7vh;
+    margin-left: 29.7vh;
 }
 
 .header_text-item{
@@ -197,9 +234,15 @@ a{
 
 .uncontainer-image{
     position: relative;
+    left: 100px;
+    width: 293px;
+    height: 605px;
     margin-left: auto;
     display: flex;
+    
     bottom: 524px;
+    background-image: url('./images/unimg-1.svg');
+    background-repeat: no-repeat;
 }
 
 
@@ -319,6 +362,10 @@ a{
     bottom: 0;
 }
 
+.card-arr-1{
+    position: relative;
+}
+
 .animal__flower-img-2{
     right: 0;
     
@@ -406,6 +453,15 @@ a{
 .friends__cards{
     display: flex;
     justify-content: center;
+}
+
+.card-arr{
+    background-image: url(./images/friends-arrow.png);
+    background-repeat: no-repeat;
+    width: 69.5px;
+    height: 36.5px;
+    margin-top: 64px;
+    
 }
 
 .friends__cards:last-child{
@@ -526,6 +582,10 @@ a{
     
 
     overflow: hidden;
+}
+
+.second__arr{
+    display: none;
 }
 
 
@@ -825,13 +885,24 @@ input[type='range']::-webkit-slider-thumb {
 
 @media screen and (max-width: 1535px) {
    
-
+    .header__text{
+        margin-left: 14.7vh;
+    }
     .uncontainer-image{
         display:none;
     }
 
-    .animal__flower-img{
-        display:none;
+    .animal__flower-img:first-child{
+        scale: 0.7;
+        left: -60px;
+        bottom: -69px;
+        
+    }
+
+    .animal__flower-img:last-child{
+        width: 386px;
+        height: 202px;
+        right: -60px;
     }
 }
 
@@ -841,6 +912,10 @@ input[type='range']::-webkit-slider-thumb {
         position: relative;
         top: 514px;
         left: 34%;
+    }
+
+    .header__text{
+        margin-left: 9.7vh;
     }
 
     .animals__right{
@@ -1014,6 +1089,19 @@ input[type='range']::-webkit-slider-thumb {
         }
 
 
+        .uncontainer-image{
+            
+            
+
+            margin-left: auto ;
+           left: 170px;
+            
+            bottom: 450px;
+            background-image: url('./images/unimg-2.svg');
+            background-repeat: no-repeat;
+        }
+
+
 
         .animals__item{
             width: 250px;
@@ -1084,9 +1172,6 @@ input[type='range']::-webkit-slider-thumb {
     }
 
     @media screen and (max-width:   950px){
-        .uncontainer-image{
-            display: none;
-        }
 
         .container{
             max-width: 800px;
@@ -1096,6 +1181,8 @@ input[type='range']::-webkit-slider-thumb {
             font-size: 14px;
             margin-left: 2px;
         }
+
+        
 
         .reviews__item{
             scale: 0.9;
@@ -1107,9 +1194,177 @@ input[type='range']::-webkit-slider-thumb {
         }
 
         .backstage__text{
-            width: 100%;
+            width: 90%;
+        }
+
+        .animals__btn{
+            margin-left: 229px;
+        }
+
+        .friends__button{
+            margin-left: 246px;
+        }
+
+        .card-fr{
+            margin-right: 0;
+            z-index: 0;
+            margin-left: 42px;
+        }
+
+        .card-fr:first-child{
+            margin-left: 0px;
+        }
+
+        .friends__card-text:first-child{
+            margin-left: 102px;
+        }
+
+        .friends__card-text:last-child{
+            margin-right: 7px;
+        }
+
+        .second__arr{
+            z-index: 10;
+            position: absolute;
+            display: block;
+            left: -32px;
+            top: -17px;
+        }
+
+        .card-arr{
+            display: none;
         }
     }
+
+    @media screen and (max-width:   840px){
+        .lower__text-item{
+            scale: 0.75;
+        }
+
+        .lower__circle{
+            scale: 0.6;
+            background: none;
+        }
+
+
+        .header__burger{
+            display: block;
+        }
+
+
+        .header__nav{
+            display: none;
+            
+        }
+
+        .footer__nav{
+            display: none;
+        }
+
+
+
+        .header__text{
+            display: none;
+        }
+
+        
+    }
+
+    @media screen and (max-width:   780px){
+
+        .container{
+            max-width: 690px;
+        }
+
+        .animals__item{
+            width: 198px;
+            height: 241px;
+        }
+
+        .animals__title{
+            font-size: 12px;
+        }
+
+        .animals__text{
+            font-size: 10px;
+        }
+
+        .animals__right{
+            left: 347px;
+            bottom: 336px;
+        }
+
+        .animals__btn{
+            margin-left: 180px;
+        }
+
+        .friends__button{
+            margin-left: 190px;
+            margin-top: 0;
+        }
+
+        .friends__card-text:first-child{
+            margin-left: 52px;
+        }
+
+        .friends__card-text:last-child{
+            margin-right: 124px;
+        }
+
+
+        .animals__left{
+            top: 338px;
+        }
+
+        .animals__item-img{
+            width: 197px;
+            height: 198px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-height:   750px){
+        .header__lower-btn{
+            top: 0;
+        }
+    }
+
+    @media screen and (max-height:   670px){
+        .header__lower-btn{
+            top: -51px;
+            left: 0;
+        }
+    
+    }
+        @media screen and (max-height: 570px){
+            .header__lower-btn{
+                top: -150px;
+            }
+        }
+
+
+    /* .animals__item-img{
+        height: 285px;
+        width: 285px;
+    }
+
+    .animals__item{
+        
+        width: 285px;
+        height: 332px;  
+    } */
+
+
 
 
 

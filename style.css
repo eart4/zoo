@@ -42,6 +42,8 @@ a{
     background-color: #000000;
     outline: none;
     margin-left: auto;
+    z-index: 10;
+    
 }
 
 .burger-line   {
@@ -50,10 +52,13 @@ a{
     height: 1px;
     background-color: white;
     transition: 0.3s;
+    z-index: 10;
 }
 
 .nav-burger{
     display: none;
+    z-index: 9;
+    
 }
 
 
@@ -69,10 +74,16 @@ a{
 
 .burger.open .burger-line:first-child{
     transform: rotate(45deg);
+    background-color: black;
+}
+
+.burger.open{
+    background-color: white;
 }
 
 .burger.open .burger-line:last-child{
     transform: rotate(-45deg);
+    background-color: black;
 }
 
 .burger.open .burger-line:nth-child(2){
@@ -84,13 +95,14 @@ a{
 
 
 .nav__burger-all{
-    transform: translatey(-200px);
+    transform: translatey(-890px);
     transition: .3s;
 }
 
 .nav-burger.nav-open .nav__burger-all{
-    transform: translatey(200px);
+    transform: translatey(0);
 }
+
 
 
 
@@ -1319,9 +1331,32 @@ input[type='range']::-webkit-slider-thumb {
         .footer__menu-link{
             margin-left: 20px;
         }
+
+        .friends__card-text{
+            position: relative;
+         right: 65px
+        }
+
+        .friends__card-text-1{
+            right: 0;
+        }
+
+        .friends__card-text-2{
+            right: 30px;
+        }
+        
     }
 
     @media screen and (max-width:   840px){
+
+
+        .friends__card-text-1{
+            right: 0;
+        }
+
+        .friends__card-text-2{
+            right: 30px;
+        }
         .lower__text-item{
             scale: 0.75;
             left: 430px;
@@ -1339,17 +1374,53 @@ input[type='range']::-webkit-slider-thumb {
 
         .nav-burger{
             display: flex;
-        }
-
-
-
-        .header__nav-link{
-            position: absolute;
+            position: relative;
         }
 
         .burger__logo-link{
-            position: absolute;
+            position: relative;
+            right: 36px;
+            scale: 1.5;
         }
+
+
+        .nav__burger-all{
+            
+            position: absolute;
+            padding-top: 13px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            font-style: normal;
+            background-color: #fff;
+            height: 100vh;
+            width: 100%;
+            
+            
+           
+            
+        }
+
+
+
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .header__nav-link{
+            
+            margin-top: 15px;
+           color: black;
+           font-size: 20px;
+           width: 140px;
+           
+        }
+
+
+
+  
        
 
         .footer__links-items-1{
@@ -1470,12 +1541,24 @@ input[type='range']::-webkit-slider-thumb {
             top: 70px;
         }
 
+        .footer__form{
+            display: none;
+        }
+
+        .footer__sub{
+            display: none;
+        }
+        .footer__button{
+            display: none;
+        }
+
 
 
 
         .footer{
             height: 282px;
         }
+
 
         
 
@@ -1492,6 +1575,12 @@ input[type='range']::-webkit-slider-thumb {
 
         .container{
             max-width: 690px;
+        }
+
+    
+
+        .friends__cards-text{
+            width: 700px;
         }
 
         .animals__item{
@@ -1534,7 +1623,7 @@ input[type='range']::-webkit-slider-thumb {
         }
 
         .friends__card-text:last-child{
-            margin-right: 124px;
+           left: -55px;
         }
 
         .header{
@@ -1713,19 +1802,21 @@ input[type='range']::-webkit-slider-thumb {
         .friends__cards-text{
             position: relative;
             transform: rotate(-270deg);
-            right: 97px;
-            top: 7px;
+            right: 64px;
+            top: -20px;
         }
 
+      
+
         .friends__card-text-1{
-            right: 82px;
+            right: 88px;
         }
 
         .friends__card-text-2{
-            right: 42px;
+            right: 74px;
         }
 
-        
+
 
         .friends__card-text{
             position: relative;
@@ -2145,16 +2236,22 @@ input[type='range']::-webkit-slider-thumb {
         scale: 0.8;
        }
 
+
        .friends__card-text-2{
-        
-        right: 78px;
+           position: absolute;
+           top: 130px;
+           left: 220px;
        }
 
        .friends__card-text-1{
-        right: 118px;
-        
+            left: -80px;
+            
        }
 
+       .friends__cards-text{
+        top: 120px;
+        position: relative;
+       }
 
 
     
@@ -2240,17 +2337,41 @@ input[type='range']::-webkit-slider-thumb {
             right: -99px;
         }
 
-        .friends__card-text-1{
-            left: 19px;
+        .friends__cards-text{
+            top: 74px;
         }
 
         .friends__card-text-2{
-            left: 60px;
+           top: 152px;
+           
         }
 
         .friends__second-title{
             font-size: 16px;
         }
+
+        .friends__button{
+            margin-top: 250px;
+            margin-left: 0;
+        }
+
+        .donate__btn{
+            margin-left: 30px;
+        }
+      
+        .friends__cards-text{
+           position: relative;
+        
+            
+        }
+
+
+
+            .footer__links-items-1{
+                margin: auto;
+            }
+
+
         
     }
 

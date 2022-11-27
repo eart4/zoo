@@ -1828,6 +1828,9 @@ input[type='range']::-webkit-slider-thumb {
             
         }
 
+        .backstage__text{
+            width: 100%;
+        }
 
 
         .second__footer-logo{
@@ -1978,7 +1981,27 @@ input[type='range']::-webkit-slider-thumb {
 
     }
 
+    @media screen and (max-width:   460px){
+        .footer__nav-text-item{
+            width: 250px;
+        }
+    }   
+
     @media screen and (max-width:   400px){
+
+        .animals__items{
+           scale: 0.9;
+           margin-top: -90px;
+           width: 100%;
+        }
+
+        
+        .friends__cards{
+            height: 150px;
+           
+        }
+
+        
         .lower__circle{
             scale: 0.25;
         }
@@ -1986,6 +2009,161 @@ input[type='range']::-webkit-slider-thumb {
         .lower__text-item{
             scale: 0.3;
         }
+
+        .footer__nav-text-item{
+            width: 200px;
+            font-size: 14px;
+            margin-left: 20px;
+        }
+
+        .footer__nav-text{
+            width: 70px;
+        }
+
+        .lower__circle{
+            scale: 0.2;
+            left: -355px;
+        }
+
+        .lower__text-item{
+            scale: 0.2;
+            top: -100px;
+            left: 90px;
+        }
+
+       .card-fr{
+        position: relative;
+        scale: 0.8;
+        top: -60px;
+        right: -100px;
+        
+       }
+
+       .friends__card-text{
+        scale: 0.8;
+       }
+
+       .friends__card-text{
+        right: -140px;
+        top: 98px;
+       }
+
+       .friends__card-text-1{
+            left: 58px;
+       }
+
+
+       .friends__card-text-2{
+        left: 100px;
+       }
+
+       .second__arr{
+        top: 20px;
+        left: 100px;
+       }
+
+
+
+       .friends__button{
+        scale: 0.8;
+        margin-top: 320px;
+       }
+       .animals__btn{
+        scale: 0.8;
+       }
+
+       .feedback{
+        scale: 0.8;
+       }
+
+       .donate__btn{
+        scale: 0.9;
+       }
+
+       .header__lower-btn{
+        scale: 0.8;
+       }
+
+       .friends__card-text-2{
+        
+        right: 78px;
+       }
+
+       .friends__card-text-1{
+        right: 118px;
+        
+       }
+
+
+
+    
+ 
+    }
+
+    @media screen and (max-width:   360px){
+        .backstage{
+            margin-bottom: 100px;
+        }
+
+        .animals__item {
+            left: -25px;
+        }
+
+        .animals__btn{
+            margin-left: 14px;
+        }
+
+        .card-fr{
+            margin-top: 120px;
+        }
+
+        .card-arr-1{
+            top: 20px;
+        }
+
+        .friends__card-text{
+            top: 120px;
+            
+        }
+
+        .friends__button{
+            margin-left: 14px;
+        }
+
+        .donate__btn{
+            position: relative;
+            right: 26px;
+        }
+
+        .footer__nav-text-item{
+            right: 220px
+        }
+
+        .feedback{
+            margin-left: 14px;
+        }
+
+        .footer__menu-link{
+            margin-left: 10px;
+        }
+
+        .animals__btn{
+            margin-right: 14px;
+        }
+
+        .lower__circle{
+            margin-right: -250px;
+            left: -370px;
+        }
+
+        .lower__text-item{
+            left: 70px;
+        }
+
+        .footer__nav-text{
+            width: 30px;
+        }
+        
     }
 
 

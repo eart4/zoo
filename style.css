@@ -1414,6 +1414,9 @@ a{
     @media screen and (max-width:   840px){
 
 
+
+
+
         .friends__card-text-1{
             right: 0;
         }
@@ -1467,7 +1470,7 @@ a{
 
 
 
-        .container{
+        .container-bur{
             display: flex;
             flex-direction: column;
         }

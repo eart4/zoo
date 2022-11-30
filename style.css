@@ -1339,6 +1339,10 @@ a{
             margin-left: 2px;
         }
 
+        .reviews__item-time{
+            font-size: 13px;
+        }
+
         
 
         .reviews__item{
@@ -1408,6 +1412,9 @@ a{
         .friends__card-text-2{
             right: 30px;
         }
+
+
+
         
     }
 
@@ -1725,6 +1732,10 @@ a{
             top: 0;
         }
 
+        .swiper-pagination{
+            display: none;
+        }
+
 
 
     }
@@ -1754,6 +1765,8 @@ a{
             background-image: url(./images/flower_foto1.png);
             
         }
+
+
 
         .backstage__title{
             font-size: 24px;
@@ -2325,123 +2338,7 @@ a{
  
     }
 
-    @media screen and (max-width:   360px){
-
-
-        .backstage{
-            margin-bottom: 100px;
-        }
-
-        .animals__item {
-            left: -25px;
-        }
-
-        .animals__btn{
-            margin-left: 14px;
-        }
-
-        .card-fr{
-            margin-top: 120px;
-        }
-
-        .card-arr-1{
-            top: 20px;
-        }
-
-        .friends__card-text{
-            top: 120px;
-            
-        }
-
-        .friends__button{
-            margin-left: 14px;
-        }
-
-        .donate__btn{
-            position: relative;
-            right: 26px;
-        }
-
-        .footer__nav-text-item{
-            right: 220px
-        }
-
-        .feedback{
-            margin-left: 14px;
-        }
-
-        .footer__menu-link{
-            margin-left: 10px;
-        }
-
-        .animals__btn{
-            margin-right: 14px;
-        }
-
-        .lower__circle{
-            margin-right: -250px;
-            left: -370px;
-        }
-
-        .lower__text-item{
-            left: 70px;
-        }
-
-        .footer__nav-text{
-            width: 30px;
-        }
-
-        .card-fr{
-            margin-top: 162px;
-        }
-
-        .card-arr-1{
-            margin-top: 50px;
-        }
-
-        .friends__card-text{
-            margin-top: 77px;
-            right: -99px;
-        }
-
-        .friends__cards-text{
-            top: 74px;
-        }
-
-        .friends__card-text-2{
-           top: 152px;
-           
-        }
-
-        .friends__second-title{
-            font-size: 16px;
-        }
-
-        .friends__button{
-            margin-top: 250px;
-            margin-left: 0;
-        }
-
-        .donate__btn{
-            margin-left: 30px;
-        }
-      
-        .friends__cards-text{
-           position: relative;
-        
-            
-        }
-
-
-
-            .footer__links-items-1{
-                margin: auto;
-            }
-
-
-        
-    }
-
+    
 
 
 

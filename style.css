@@ -102,12 +102,12 @@ a{
 
 
 .nav__burger-all{
-    transform: translatey(-890px);
-    transition: .3s;
+    transform: translatey(-1500px);
+    transition: .6s;
 }
 
 .nav-burger.nav-open .nav__burger-all{
-    transform: translatey(0);
+    transform: translatey(0px);
 }
 
 

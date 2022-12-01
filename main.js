@@ -59,27 +59,51 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      speed: 500,
+     
 
       breakpoints:{
-        1221:{
-            slidesPerView: 3,
+
+        320:{
+            slidesPerView: 1,
         },
 
-        700:{
+        589:{
             slidesPerView: 2,
         },
-    },
 
-      freeMode: true,
+        940:{
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    }
   });
 
 
   let myLowAnimals = new Swiper(".myAnimals-1", {
     slidesPerView: 3,
-
     spaceBetween: 31,
-    freeMode: true,
+    speed: 500,
 
+
+
+
+    breakpoints:{
+        320:{
+            slidesPerView: 1,
+        },
+
+        589:{
+            slidesPerView: 2,
+        },
+
+        950:{
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+
+    }
 
   });
 

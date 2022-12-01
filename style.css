@@ -520,6 +520,10 @@ margin-right: auto !important;
 
 }
 
+.uncontainer-image{
+    display: none;
+}
+
 .swiper-slide-an{
     width: 366px !important;
     height: 426px !important;
@@ -535,6 +539,10 @@ margin-right: auto !important;
     right: 0;
     right: 13px;
     bottom: 13px;
+}
+
+.animals-1{
+    margin-top: 150px;
 }
 
 

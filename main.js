@@ -80,25 +80,7 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 31,
     freeMode: true,
 
-    breakpoints:{
 
-        320:{
-            slidesPerView: 1,
-        },
-
-
-        
-        
-
-        780:{
-            slidesPerView: 2,
-        },
-        1221:{
-            slidesPerView: 3,
-        },
-
-
-    }
   });
 
   myTopAnimals.controller.control = myLowAnimals;

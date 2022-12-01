@@ -14,6 +14,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
 a{
     text-decoration: none;
     color: inherit;
@@ -307,7 +309,7 @@ a{
 }
 
 
-.animals__items{
+ .animals__items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -322,14 +324,14 @@ a{
     text-transform: uppercase;
     margin-top: 8px;
     margin-left: 16px;
-}
+} 
 
 .second__arr{
     display: none;
 }
 
 
-.animals__text{
+ .animals__text{
     font-weight: 300;
     font-size: 15px;
     line-height: 120%;
@@ -351,7 +353,7 @@ a{
 
 .c{
     margin-bottom: 20px;
-}
+} 
 
 .header__nav-burger{
     display: none;
@@ -390,7 +392,7 @@ a{
     display: none;
 }
 
-.animals__left{
+ .animals__left{
     right: 82px;
     position: relative;
     border-radius: 100%;
@@ -460,7 +462,11 @@ a{
 }
 .animals__right:hover, .animals__left:hover{
     background-color: #4B9200;
-}
+} 
+
+
+
+
 
 .friends{
     height: 1004px;
